@@ -50,7 +50,6 @@ public class SecurityConfig {
                                     .frameOptions().sameOrigin();
                         }
                 );
-
         return http.build();
     }
 
