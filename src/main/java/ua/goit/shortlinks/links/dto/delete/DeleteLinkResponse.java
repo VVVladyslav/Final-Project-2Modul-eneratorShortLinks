@@ -10,8 +10,6 @@ public class DeleteLinkResponse {
 
     public enum Error {
         ok,
-        insufficientPrivileges,
-        linkNotFound,
         linkDoesNotExist,
         linkAlreadyDeleted
     }
