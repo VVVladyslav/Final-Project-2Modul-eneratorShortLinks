@@ -42,12 +42,4 @@ public class SwaggerConfig {
                 .pathsToMatch("/api/v1/links/**")
                 .build();
     }
-
-/*    @Bean
-    public GroupedOpenApi redirectOpenApi() {
-        return GroupedOpenApi.builder()
-                .group("Redirect")
-                .pathsToMatch("/{shortLink}")
-                .build();
-    }*/
 }
